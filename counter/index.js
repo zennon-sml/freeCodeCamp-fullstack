@@ -1,6 +1,6 @@
 let count = 0;
 let countEl = document.getElementById("count");
-let saveEL = document.getElementById("save")
+let saveEL = document.getElementById("save");
 
 
 function increment() {
@@ -10,7 +10,7 @@ function increment() {
 };
 
 function save() {
-    saveEL.innerText += " - " + count
-    count = 0
+    saveEL.innerText += " - " + count;
+    count = 0;
     countEl.innerText = count;
 };
